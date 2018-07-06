@@ -1,7 +1,10 @@
 # Transfer A Directory from the Cluster to Local Machine
 
-This script will transfer a directory from the cluster to a local machine.
+A script for transfering a directory from the cluster to the local machine.
 
 ## Instructions
 
-When run a copy of the directory located on the cluster will be downloaded to the local machine. The directory address will match that of the file located on the cluster.
+* The user name and name of the directory with respect to the current folder should be entered into the script. 
+* The directory address where the folder is downloaded will match that of the directory located on the cluster.
+  ie. if transferFromTheCluster.sh is located in the directory /home/username/foo on the local machine,  
+  by default the directory /home/usr/foo/data will be downloaded from the Palmetto Cluster into the current directory.
